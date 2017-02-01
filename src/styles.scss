@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+
+// Default Font
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Typography
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import All of Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+// core
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+
+// buttons
+//@import '~bootstrap-sass/assets/stylesheets/bootstrap/buttons';
+
+
+//Random Global Style
+
+nav a {
+    padding-right: 10px;
+}
